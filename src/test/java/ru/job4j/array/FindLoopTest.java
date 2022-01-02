@@ -23,7 +23,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHas9ThenMinus4() {
+    public void whenArrayHas9ThenMinus1() {
         int[] data = {5, 4, 3, 2, 0, 4, 1};
         int el = 9;
         int result = FindLoop.indexOf(data, el);
